@@ -11,16 +11,15 @@ Building a Real Estate Marketplace App. Our Real Estate Marketplace App aims to 
 ![image](https://github.com/user-attachments/assets/58a2cee8-741d-4905-a189-9f127989a5e6)
 
 ## 1. Installation  
-   1. Clone the repository:  
-   ```bash
-   git clone https://github.com/santohssaroj0032/Dream-Home-Finder.git
-## 2. Navigate to the project folder:
-    cd Estate
+     i. Clone the repository:  
+        git clone https://github.com/santohssaroj0032/Dream-Home-Finder.git
+ ## 2. Navigate to the project folder:
+        cd Estate
 
 ## 3. Install dependencies:
-     npm install
+        npm install
 
 ## 4. Run the project:
-       npm start
+        npm start
  
      

@@ -15,6 +15,6 @@ Building a Real Estate Marketplace App. Our Real Estate Marketplace App aims to 
    ```bash
    git clone https://github.com/santohssaroj0032/Dream-Home-Finder.git
 
-##Navigate to the project folder:
-cd Estate
+## Navigate to the project folder:
+    cd Estate
 

@@ -57,23 +57,23 @@
 
 import express from 'express';
 import mongoose from 'mongoose';
-import dotenv from 'dotenv';
 import userRouter from './routes/user.route.js';
 import authRouter from './routes/auth.route.js';
 import listingRouter from './routes/listing.route.js';
 import cookieParser from 'cookie-parser';
 import path from 'path';
-
+import dotenv from 'dotenv';
 dotenv.config();
 
+ 
 const mongoURI = process.env.MONGO;
 if (!mongoURI) {
   console.error('MongoDB URI is undefined. Please set the MONGO environment variable.');
   process.exit(1); // Exit the process if the URI is not defined
 }
 
-mongoose
-  .connect(mongoURI)
+mongoose 
+  .connect(mongoURI)  
   .then(() => {
     console.log('MongoDB Connected!');
   })

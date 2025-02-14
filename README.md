@@ -21,5 +21,10 @@ Building a Real Estate Marketplace App. Our Real Estate Marketplace App aims to 
 
 ## 4. Run the project:
         npm start
+
+## Usage
+Browse available properties.
+View property details and images.
+Compare and shortlist homes.        
  
      

@@ -62,7 +62,7 @@ import authRouter from './routes/auth.route.js';
 import listingRouter from './routes/listing.route.js';
 import cookieParser from 'cookie-parser';
 import path from 'path';
-import dotenv from 'dotenv';
+import dotenv from 'dotenv'; 
 dotenv.config();
 
  
